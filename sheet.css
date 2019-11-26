@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    background-size: cover;
+}
+
+h1{
+    border: 10px groove white;
+    height: 1000px;
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 1650px;
+    background-color: rgba(4, 22, 46, 0.377);
+}
+nav{
+    background-color: rgba(196, 167, 167, 0.904);
+    height: 60px;
+    width: 1649px;
+    font-family: cursive;
+
+
+    
+
+}
+#N{
+    float: left;
+
+
+}
+ul{
+    display: inline;
+
+}
+li{
+    display: inline;
+    float: right;
+    padding: 10px;
+    
+}
+span{
+    padding: 15px;
+}

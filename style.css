@@ -1,0 +1,247 @@
+body{
+    background-color: black;
+    
+}
+span{
+    
+}
+ul{
+    list-style-type: none;
+    display: inline;
+    
+    
+    
+
+}
+.name{
+    text-transform: capitalize;
+    color: white;
+    display: inline;
+    margin: 80px;
+    float: left;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: cursive;
+    
+
+}
+.items{
+    float: right;
+    color: white;
+    margin-right: 60px;
+    margin-top: 80px;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: cursive;
+    
+    
+
+    
+
+
+}
+.items:after{
+    display:block;
+    content: '';
+    border-bottom: 4px solid rgb(252, 194, 6);
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+    
+
+}
+.items:hover:after{transform: scaleX(1);}
+.items:hover{
+    font-size: 25px;
+}
+nav{
+    margin: 80px;
+    margin-top: 300px;
+    width: 600px;
+    height: 300px;
+    line-height: 40px;
+    
+    
+    
+}
+#hel{
+    font-size: 20px;
+    font-family: Tahoma;
+    font-weight: 700;
+    color: rgb(252, 194, 6);
+    margin-bottom: 50px;
+    
+
+}
+#im{
+    font-family: Arial;
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+}
+.a{
+    display: inline;
+}
+#em{
+    margin-left: 20px;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: Arial;
+    color: rgb(252, 194, 6);
+}
+.b{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: Arial;
+    color: rgb(252, 194, 6);
+    margin-top: 20px;
+}
+.skills{
+    font-family: Tahoma;
+    font-weight: 500;
+    color: azure;
+    line-height: 30px;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.act{
+    font-family: Tahoma;
+    font-size: 15px;
+    display: inline;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 20px;
+    font-weight: 600;
+    color: white;
+    border: 0.01px solid white;
+    
+
+}
+.act:hover{
+    background-color:  rgb(252, 194, 6);
+    color: black;
+    border: none;
+}
+.mySlides {
+    display: none;
+}
+img{
+    position: absolute;
+    left: 200px;
+    top: -50px;
+    
+
+
+    
+}
+.slideshow-container{
+    max-width: 850px;
+    top: 150px;
+    right: 50px;
+    z-index: -1;
+    left: 850px;
+    position: absolute;
+    height: 600px;
+    /* background-image: url(pic.jpg); */
+    animation-name: fade;
+    animation-duration: 1.5s;
+    height: 590px;
+    
+
+
+
+}
+
+.text{
+    color: white;
+    font-size: 7px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext{
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 650px;
+    font-size: 18px;
+    right: 400px;
+
+}
+.dot{
+    height: 12px;
+    width: 12px;
+    margin: 60px 2px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active{
+    background-color: #717171;
+
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade{
+    from {opacity: .4}
+    to{opacity: 1}
+}
+@media only screen and (max-width: 300px){
+    .text{font-size: 11px}
+}
+
+.about{
+    background-color:none;
+    position: relative;
+    top:100px;
+    left: 100px;
+    width: 1600px;
+    height: 800px;
+    bottom: 400px;
+    border: 4px double yellow;
+
+}
+
+.resume{
+    background-color:blue;
+    position: relative;
+    top:300px;
+    left: 100px;
+    width: 1600px;
+    height: 800px;
+    
+}
+
+.services{
+    background-color:rgb(255, 232, 28);
+    position: relative;
+    top:500px;
+    left: 100px;
+    width: 1600px;
+    height: 800px;
+    
+}
+
+.skill{
+    background-color:rgb(6, 235, 235);
+    position: relative;
+    top: 700px;
+    left: 100px;
+    width: 1600px;
+    height: 800px;
+    
+}
+.abtimg{
+    width: 600px;
+    height: 800px;
+    position: relative;
+    left: 40px;
+    top: 0px;
+
+
+}
